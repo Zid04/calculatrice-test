@@ -1,4 +1,4 @@
-import { expect, test } from 'vitest'
+import { expect, test, describe } from 'vitest'
 
 function puissance(nb:number, expo:number): number{
 let result = 1;
@@ -10,6 +10,7 @@ for (let i = 0; i < expo; i++) {
 }
 return result;
 }
+
 describe('Tests de la fonction puissance', () => {
 
 test('power 2**3 = 8', () => {
