@@ -1,18 +1,4 @@
-{"name":"calculatrice",
-"private":true,
-"version":"0.0.0",
-"type":"module",
-"scripts":{"dev":"vite",
-    "test": "vitest",
-    "test:ui": "vitest --ui",
-    "test:run": "vitest run",
-    "coverage": "vitest run --coverage",
-    "build":"vue-tsc -b && vite build",
-    "preview":"vite preview"
-},
-"dependencies":{"vue":"^3.5.13"},
-"devDependencies":{"@vitejs/plugin-vue":"^5.2.4",
-"@vitest/coverage-v8":"^4.1.9","@vitest/ui":"^4.1.9",
-"@vue/test-utils":"^2.4.11","@vue/tsconfig":"^0.7.0",
-"jsdom":"^29.1.1","typescript":"~5.7.2","vite":"^6.2.0",
-"vitest":"^4.1.9","vue-tsc":"^2.2.0"}}
+{"name":"calculatrice","private":true,"version":"0.0.0","type":"module","scripts":{"dev":"vite","test":"vitest","test:ui":"vitest --ui","test:run":"vitest run","coverage":"vitest run --coverage","test:e2e": "playwright test",
+"test:e2e:ui": "playwright test --ui",
+"test:e2e:report": "playwright show-report",
+"build":"vue-tsc -b && vite build","preview":"vite preview"},"dependencies":{"vue":"^3.5.13"},"devDependencies":{"@playwright/test":"^1.61.0","@vitejs/plugin-vue":"^5.2.4","@vitest/coverage-v8":"^4.1.9","@vitest/ui":"^4.1.9","@vue/test-utils":"^2.4.11","@vue/tsconfig":"^0.7.0","jsdom":"^29.1.1","typescript":"~5.7.2","vite":"^6.2.0","vitest":"^4.1.9","vue-tsc":"^2.2.0"}}
